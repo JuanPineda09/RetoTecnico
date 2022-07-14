@@ -1,18 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-</head>
-<body>
-    <div class="container-sm">
-        <button type="button" class="btn btn-success">Filtrar Naves</button>
-        <button type="button" class="btn btn-success">Crear Nave</button>
-    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+  <h1 class="titulo">Naves Espaciales</h1>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-1">
+      <button type="button" class="btn btn-success">Filtrar Naves</button>
+    </div>
+    <div class="col-1">
+      <button type="button" class="btn btn-success">Crear Nave</button>
+    </div>
+  </div>
+  <!-- <table class="table">
+    <thead class="bg-success" style="--bs-bg-opacity: .6">
+      <tr>
+        <th scope="col">Nombre</th>
+        <th scope="col">Pais</th>
+        <th scope="col">Tiempo de Actividad</th>
+        <th scope="col">Combustible</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Nombre 1</th>
+        <td>Pais 1</td>
+        <td>Tiempo de Actividad 1</td>
+        <td>Combustibles 1</td>
+      </tr>
+      <tr>
+        <th scope="row">Nombre 2</th>
+        <td>Pais 2</td>
+        <td>Tiempo de Actividad 2</td>
+        <td>Combustibles 2</td>
+      </tr>
+      <tr>
+        <th scope="row">Nombre 3</th>
+        <td>Pais 3</td>
+        <td>Tiempo de Actividad 3</td>
+        <td>Combustibles 3</td>
+      </tr>
+    </tbody>
+  </table> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
